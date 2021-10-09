@@ -1,0 +1,137 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: darkcyan;
+    color: darkblue;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0;
+    border-top: none;
+}
+
+header {
+    background-color: aquamarine;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: black;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbuttons {
+    align-self: flex-end;
+
+
+}
+
+button {
+    background-color: rgb(7, 167, 230);
+    font-weight: 600;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagesection {
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227__480.jpg");
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+h2 { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 0, 179);
+    text-shadow: white 20px;
+    font-weight: 800;
+    font-size: 42px;
+    
+}
+
+img {
+    height: 400px;
+    width: 100%;
+    align-content: stretch;
+    
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sectioncontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+
+}
+
+
+aside {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    text-shadow: slateblue 10px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+p {
+    color: rgba(23, 0, 44, 0.993)
+}
+
+a {
+    display: flex;
+    display: block;
+    flex-wrap: wrap;
+    width: 33%;
+}
+
+
+div {
+    color: black;
+}
+
+footer {
+    text-align: center;
+
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background-color: rgb(7, 167, 230);
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: rgb(7, 167, 230);
+    }
+  }
+  
+  }
