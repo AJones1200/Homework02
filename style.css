@@ -77,6 +77,28 @@ section {
 
 }
 
+.projectCard {
+    width: 30%;
+    height: 150px;
+    border: solid 5px black;
+    margin: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.projectCard a {
+    background-color: lightskyblue;
+    padding: 5px;
+    z-index: 16;
+    min-width:fit-content;
+    
+}
+
+#project1 {
+    background-image: url("./QP\ Screenshot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 aside {
     text-align: center;
