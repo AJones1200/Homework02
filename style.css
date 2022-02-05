@@ -120,6 +120,18 @@ section {
     background-repeat: no-repeat; 
 }
 
+#tennantBuddy {
+    background-image: url("./TenBud\ Screenshot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+#techBlog {
+    background-image: url("./TechBlog\ Screenshot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
 aside {
     text-align: center;
     font-size: 40px;
