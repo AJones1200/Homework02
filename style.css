@@ -57,11 +57,12 @@ button {
 
 h2 { 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(178, 255, 158);
+    color: rgb(254, 139, 2);
     background-color: transparent;
     text-shadow: white 20px;
     font-weight: 800;
     font-size: 42px;
+    position: relative;
     
 }
 
@@ -128,6 +129,12 @@ section {
 
 #techBlog {
     background-image: url("./TechBlog.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+#portfolio {
+    background-image: url("./Portfolio.png");
     background-size: cover;
     background-repeat: no-repeat; 
 }
